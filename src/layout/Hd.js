@@ -21,7 +21,7 @@ function Hd() {
                 <NaviLi cls="event me-5" href="" atext="특가/혜택" acls="" />
             </ul>
             <ul id="icon" className='d-flex ms-auto'>
-                <NaviIcon licls="loca me-4" href="" iconcls="bi bi-geo-alt-fill" acls="loca_txt" />
+                <NaviIcon licls="loca me-4" href="" iconcls="bi bi-geo-alt-fill" acls="" />
                 <NaviIcon licls="like me-4" href="" iconcls="bi bi-bag" acls="" />
                 <NaviIcon licls="login me-4" href="" iconcls="bi bi-person" acls="" />
             </ul>
