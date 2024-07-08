@@ -18,8 +18,10 @@ const myinfo=[
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-     <App sendinfo={myinfo[0]} />
-     <App sendinfo={myinfo[1]} />
+  {
+    myinfo.map((ele, idx)=> <App sendinfo={myinfo[idx]} />)
+  }
+    
 
   </>
 );
